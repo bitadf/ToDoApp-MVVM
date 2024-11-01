@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <item
+        android:id="@+id/search_ic_toolbar"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        android:title="Search"
+        android:iconTint="@color/green_white"/>
+    <item
+        android:id="@+id/add_ic_toolbar"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"
+        android:title="Create Task"
+        android:iconTint="@color/green_white"
+        />
+
+    <item
+        android:id="@+id/home_ic_toolbar"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"
+        android:title="Home"
+        android:iconTint="@color/green_white"
+        />
+
+</menu>

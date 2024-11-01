@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/strong_pink">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToDo"
+        android:textColor="@color/dark_blue"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lost time is never found again..."
+        android:textColor="@color/midnight_blue"
+        android:textSize="18dp"
+        android:textStyle="bold"
+
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>

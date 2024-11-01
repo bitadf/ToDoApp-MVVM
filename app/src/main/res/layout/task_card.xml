@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+
+    android:backgroundTint="@color/green_white"
+
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/task_card_back">
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textSize="20sp"
+                android:textColor="@color/green_white"
+                android:textStyle="bold"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:layout_marginTop="6dp"
+                android:layout_marginHorizontal="4dp"
+                />
+            <TextView
+                android:id="@+id/description_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="6dp"
+                android:layout_marginTop="6dp"
+                android:text="Deeeeeeeeeeeeeeccccccccccccccriiiiiiiiiiiiiiiiiptioooooooonnnnnnnnnnnnnnnnnnnnnnnnnnn"
+                android:textColor="@color/grey"
+                android:textSize="16sp"
+                android:minLines="2"
+                android:maxLines="2"
+                android:ellipsize="end"
+
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+
+
+                >
+                <ImageView
+                    android:id="@+id/active_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="4dp"
+                    android:src="@drawable/ic_unchecked"
+                    android:gravity="center_vertical"/>
+
+
+                <ImageButton
+
+                    android:id="@+id/delete_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_toStartOf="@+id/share_btn"
+                    android:backgroundTint="@color/midnight_blue"
+                    android:src="@drawable/ic_delete"
+                    app:tint="@color/midnight_blue_light"/>
+
+                <ImageButton
+                    android:id="@+id/share_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentBottom="true"
+
+                    android:layout_marginBottom="0dp"
+                    android:layout_toStartOf="@+id/more_btn"
+                    android:backgroundTint="@color/midnight_blue"
+                    android:src="@drawable/ic_share"
+                    app:tint="@color/midnight_blue_light"/>
+
+                <ImageButton
+                    android:id="@+id/more_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="0dp"
+                    android:backgroundTint="@color/midnight_blue"
+                    android:src="@drawable/ic_more"
+                    app:tint="@color/midnight_blue_light"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
